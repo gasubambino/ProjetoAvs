@@ -2081,13 +2081,22 @@ MonoBehaviour:
   waves:
   - enemy1Count: 2
     enemy2Count: 0
-    spawnInterval: 0.6
-  - enemy1Count: 0
-    enemy2Count: 2
-    spawnInterval: 0.5
+    spawnInterval: 0.4
   - enemy1Count: 3
     enemy2Count: 0
-    spawnInterval: 0.1
+    spawnInterval: 0.4
+  - enemy1Count: 5
+    enemy2Count: 0
+    spawnInterval: 0.4
+  - enemy1Count: 7
+    enemy2Count: 0
+    spawnInterval: 0.4
+  - enemy1Count: 7
+    enemy2Count: 2
+    spawnInterval: 0.4
+  - enemy1Count: 9
+    enemy2Count: 2
+    spawnInterval: 0.4
 --- !u!4 &1165164708
 Transform:
   m_ObjectHideFlags: 0
@@ -2150,7 +2159,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1142.7
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
